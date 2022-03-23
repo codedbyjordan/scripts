@@ -5,7 +5,7 @@ $.verbose = false;
 
 const aliasName = process.argv[3];
 const aliasCommand = process.argv[4];
-const alias = `${aliasName}=${aliasCommand}`;
+const alias = `alias ${aliasName}="${aliasCommand}"`;
 
 let aliasesFile = `${process.env.HOME}\/.zshrc`;
 
