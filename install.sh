@@ -15,6 +15,7 @@ for file in *.mjs; do
 done
 
 cp helpers/*.mjs $HOME/.scripts/helpers
+chmod +x $HOME/.scripts
 source $HOME/.zshrc
 
 echo Done\!
