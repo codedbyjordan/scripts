@@ -20,8 +20,9 @@ if (argv._.length <= 1) {
 } else {
   try {
     await quiet($`cat ${aliasesFile} | grep ${alias}`);
-    console.log("Alias already exists, so it was not added");
+    console.log(chalk.yellow("Alias already exists, so it was not added"));
   } catch (e) {
-    await quiet(`echo ${alias} >> ${aliasesFile}`);
+    await quiet($`echo ${alias} >> ${aliasesFile}`);
+    console.log(chalk.green(`Success! Alias ${aliasName} was successfully added.`))
   }
 }
