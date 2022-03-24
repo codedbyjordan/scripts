@@ -17,3 +17,9 @@ A (soon to be) handful of helpful scripts to make your life in the terminal easi
 cd scripts/
 ./install.sh
 ```
+
+## List of scripts
+
+- `new-alias`: Create a command alias
+  - Usage
+    `new-alias [name] [command]`
