@@ -1,5 +1,19 @@
 {
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedbyjordan/scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codedbyjordan/scripts/issues"
+  },
+  "homepage": "https://github.com/codedbyjordan/scripts#readme",
+  "description": "",
   "dependencies": {
-    "zx": "^5.2.0"
+    "zx": "^6.0.7"
   }
 }
