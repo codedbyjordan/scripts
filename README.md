@@ -23,3 +23,6 @@ cd scripts/
 - `new-alias`: Create a command alias
   - Usage
     `new-alias [name] [command]`
+- `short`: Reveal the URL being masked by a URL shortener
+  - Usage
+    `short [url]`
